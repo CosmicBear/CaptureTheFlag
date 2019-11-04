@@ -6,4 +6,8 @@ Please visit the [wiki-page](https://github.com/CosmicBear/CaptureTheFlag/wiki) 
 
 ## Machines
 
-This folder contains a folder for each machine started. Every specific machine folder contains notes, flags, files/data collected. Notes are taken with CherryTree.
+This folder contains a folder for each machine started. Every specific machine folder contains notes, flags, files/data collected. Notes are written in CherryTree.
+
+## Templates
+
+This folder contains a note template and different files/scripts used in a lot of cases.

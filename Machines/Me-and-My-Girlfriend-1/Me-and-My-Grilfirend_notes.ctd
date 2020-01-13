@@ -1,0 +1,38 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="14" foreground="" is_bold="False" name="Me and My Girlfirend 1" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870280.27" ts_lastsave="1578938857.5" unique_id="1">
+		<rich_text></rich_text>
+		<node custom_icon_id="39" foreground="" is_bold="False" name="Info Gathering &amp; Vuln ID" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870311.55" ts_lastsave="1572870453.79" unique_id="2">
+			<rich_text scale="h1">Thoughts and Ideas</rich_text>
+			<node custom_icon_id="12" foreground="" is_bold="False" name="Credentials &amp; Other Info" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870372.96" ts_lastsave="1576383376.27" unique_id="4">
+				<rich_text scale="h1">IP</rich_text>
+				<rich_text>
+
+
+
+</rich_text>
+				<rich_text scale="h1">Credentials</rich_text>
+				<rich_text>
+</rich_text>
+			</node>
+			<node custom_icon_id="21" foreground="" is_bold="False" name="Scans" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870385.09" ts_lastsave="1573477742.1" unique_id="5">
+				<rich_text scale="h1">Nmap Scan</rich_text>
+			</node>
+			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870439.54" ts_lastsave="1573477690.97" unique_id="6">
+				<rich_text></rich_text>
+				<node custom_icon_id="15" foreground="" is_bold="False" name="Manual Browsing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1573477690.97" ts_lastsave="1573477717.57" unique_id="8">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="44" foreground="" is_bold="False" name="File System" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870453.79" ts_lastsave="1572870453.79" unique_id="7">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="43" foreground="" is_bold="False" name="Attacks &amp; Exploits" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870342.04" ts_lastsave="1572870412.59" unique_id="3">
+			<rich_text scale="h1">Thoughts and Ideas</rich_text>
+		</node>
+	</node>
+	<node custom_icon_id="9" foreground="" is_bold="False" name="Temporary" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1576383399.34" ts_lastsave="1576383399.34" unique_id="9">
+		<rich_text></rich_text>
+	</node>
+</cherrytree>

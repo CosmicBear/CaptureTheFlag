@@ -1,0 +1,3 @@
+Flag1{b9bbcb33e11b80be759c4e844862482d}
+Flag2{fc3fd58dcdad9ab23faca6e9a36e581c}
+Flag3{afc01ab56b50591e7dccf93122770cd2}

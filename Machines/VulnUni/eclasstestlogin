@@ -1,0 +1,14 @@
+POST /vulnuni-eclass/ HTTP/1.1
+Host: vulnuni.local
+User-Agent: Mozilla/5.0 (X11; Linux x86_64; rv:68.0) Gecko/20100101 Firefox/68.0
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8
+Accept-Language: en-US,en;q=0.5
+Accept-Encoding: gzip, deflate
+Referer: http://vulnuni.local/vulnuni-eclass/index.php
+Content-Type: application/x-www-form-urlencoded
+Content-Length: 33
+Connection: close
+Cookie: PHPSESSID=ajb6bkrksmpv2jb3a2hts2dld2
+Upgrade-Insecure-Requests: 1
+
+uname=test&pass=test&submit=Enter

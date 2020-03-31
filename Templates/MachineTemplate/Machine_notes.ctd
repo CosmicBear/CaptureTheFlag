@@ -1,0 +1,87 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="14" foreground="" is_bold="False" name="Machine Name" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870280.27" ts_lastsave="1585636609.01" unique_id="1">
+		<rich_text></rich_text>
+		<node custom_icon_id="39" foreground="" is_bold="False" name="Info Gathering &amp; Vuln ID" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870311.55" ts_lastsave="1585637972.28" unique_id="2">
+			<rich_text scale="h1">Thoughts and Ideas</rich_text>
+			<rich_text>
+
+
+</rich_text>
+			<rich_text scale="h2">SSH</rich_text>
+			<rich_text>
+
+☐  Try to connect with known usernames (from HTTP and CTF scenario description) and see if they actually exist (on SSH)
+☐  Use dictionary attack based on known confirmed usernames
+
+</rich_text>
+			<rich_text scale="h2">FTP</rich_text>
+			<rich_text>
+
+☐  Try use default credentials
+☐  Use dictionary attack based on known usernames (from HTTP and CTF scenario description) 
+
+</rich_text>
+			<rich_text scale="h2">HTTP</rich_text>
+			<rich_text>
+
+☐  Look at source code
+☐  Collect / harvest names and usernames from website
+
+</rich_text>
+			<rich_text weight="heavy">If login form / authentication</rich_text>
+			<rich_text>
+
+☐  Try use default credentials
+☐  Use dictionary attack based on known usernames (from HTTP and CTF scenario description) </rich_text>
+			<node custom_icon_id="12" foreground="" is_bold="False" name="Credentials &amp; Other Info" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870372.96" ts_lastsave="1585636613.45" unique_id="4">
+				<rich_text scale="h1">System Information</rich_text>
+				<rich_text>
+
+
+
+</rich_text>
+				<rich_text scale="h1">Credentials</rich_text>
+			</node>
+			<node custom_icon_id="21" foreground="" is_bold="False" name="Scans" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870385.09" ts_lastsave="1585636673.22" unique_id="5">
+				<rich_text scale="h1">Nmap Scan</rich_text>
+				<rich_text>
+
+
+</rich_text>
+				<rich_text scale="h1">Nikto Scan</rich_text>
+				<rich_text>
+
+
+</rich_text>
+				<rich_text scale="h1">Dirbuster/Dirb Scan</rich_text>
+				<rich_text>
+</rich_text>
+			</node>
+			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870439.54" ts_lastsave="1584662633.64" unique_id="6">
+				<rich_text></rich_text>
+				<node custom_icon_id="15" foreground="" is_bold="False" name="Manual Browsing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1573477690.97" ts_lastsave="1585636690.9" unique_id="8">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="44" foreground="" is_bold="False" name="File System / SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1584656317.16" ts_lastsave="1585636699.79" unique_id="10">
+				<rich_text></rich_text>
+			</node>
+		</node>
+		<node custom_icon_id="43" foreground="" is_bold="False" name="Attacks &amp; Exploits" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870342.04" ts_lastsave="1585638492.89" unique_id="3">
+			<rich_text scale="h1">Thoughts and Ideas</rich_text>
+			<node custom_icon_id="42" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585638176.19" ts_lastsave="1585638176.19" unique_id="7">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="22" foreground="" is_bold="False" name="Local File Inclusion" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585638477.14" ts_lastsave="1585638477.14" unique_id="11">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="41" foreground="" is_bold="False" name="Password Cracking" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585638492.89" ts_lastsave="1585638492.89" unique_id="12">
+				<rich_text></rich_text>
+			</node>
+		</node>
+	</node>
+	<node custom_icon_id="9" foreground="" is_bold="False" name="Temporary" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1576383399.34" ts_lastsave="1585636730.48" unique_id="9">
+		<rich_text></rich_text>
+	</node>
+</cherrytree>

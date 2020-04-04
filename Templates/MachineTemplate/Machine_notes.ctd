@@ -2,7 +2,7 @@
 <cherrytree>
 	<node custom_icon_id="14" foreground="" is_bold="False" name="Machine Name" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870280.27" ts_lastsave="1585636609.01" unique_id="1">
 		<rich_text></rich_text>
-		<node custom_icon_id="39" foreground="" is_bold="False" name="Info Gathering &amp; Vuln ID" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870311.55" ts_lastsave="1585637972.28" unique_id="2">
+		<node custom_icon_id="39" foreground="" is_bold="False" name="Info Gathering &amp; Vuln ID" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870311.55" ts_lastsave="1586024913.81" unique_id="2">
 			<rich_text scale="h1">Thoughts and Ideas</rich_text>
 			<rich_text>
 
@@ -58,17 +58,44 @@
 				<rich_text>
 </rich_text>
 			</node>
-			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870439.54" ts_lastsave="1584662633.64" unique_id="6">
+			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870439.54" ts_lastsave="1586024884.19" unique_id="6">
 				<rich_text></rich_text>
 				<node custom_icon_id="15" foreground="" is_bold="False" name="Manual Browsing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1573477690.97" ts_lastsave="1585636690.9" unique_id="8">
 					<rich_text></rich_text>
 				</node>
+				<node custom_icon_id="15" foreground="" is_bold="False" name="Robots.txt" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024415.09" ts_lastsave="1586024415.09" unique_id="14">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Registration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024631.79" ts_lastsave="1586024631.79" unique_id="19">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="16" foreground="" is_bold="False" name="File Upload" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024659.72" ts_lastsave="1586024659.72" unique_id="20">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="38" foreground="" is_bold="False" name="Wordpress" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024872.26" ts_lastsave="1586024872.26" unique_id="21">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="38" foreground="" is_bold="False" name="Joomla" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024884.19" ts_lastsave="1586024884.19" unique_id="22">
+					<rich_text></rich_text>
+				</node>
 			</node>
-			<node custom_icon_id="44" foreground="" is_bold="False" name="File System / SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1584656317.16" ts_lastsave="1585636699.79" unique_id="10">
+			<node custom_icon_id="44" foreground="" is_bold="False" name="File System Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1584656317.16" ts_lastsave="1586024332.44" unique_id="10">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="21" foreground="" is_bold="False" name="SSH Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024311.89" ts_lastsave="1586024311.89" unique_id="13">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="44" foreground="" is_bold="False" name="FTP Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024458.83" ts_lastsave="1586024458.83" unique_id="15">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="44" foreground="" is_bold="False" name="SMB Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024489.93" ts_lastsave="1586024489.93" unique_id="16">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="39" foreground="" is_bold="False" name="Database Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024913.81" ts_lastsave="1586024913.81" unique_id="23">
 				<rich_text></rich_text>
 			</node>
 		</node>
-		<node custom_icon_id="43" foreground="" is_bold="False" name="Attacks &amp; Exploits" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870342.04" ts_lastsave="1585638492.89" unique_id="3">
+		<node custom_icon_id="43" foreground="" is_bold="False" name="Attacks &amp; Exploits" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870342.04" ts_lastsave="1586024560.79" unique_id="3">
 			<rich_text scale="h1">Thoughts and Ideas</rich_text>
 			<node custom_icon_id="42" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585638176.19" ts_lastsave="1585638176.19" unique_id="7">
 				<rich_text></rich_text>
@@ -77,6 +104,12 @@
 				<rich_text></rich_text>
 			</node>
 			<node custom_icon_id="41" foreground="" is_bold="False" name="Password Cracking" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585638492.89" ts_lastsave="1585638492.89" unique_id="12">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="22" foreground="" is_bold="False" name="SQL Injection" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024556.46" ts_lastsave="1586024590.78" unique_id="17">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="22" foreground="" is_bold="False" name="Insecure Direct Object Reference" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024560.79" ts_lastsave="1586024599.04" unique_id="18">
 				<rich_text></rich_text>
 			</node>
 		</node>

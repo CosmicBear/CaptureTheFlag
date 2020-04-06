@@ -2,7 +2,7 @@
 <cherrytree>
 	<node custom_icon_id="14" foreground="" is_bold="False" name="Machine Name" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870280.27" ts_lastsave="1585636609.01" unique_id="1">
 		<rich_text></rich_text>
-		<node custom_icon_id="39" foreground="" is_bold="False" name="Info Gathering &amp; Vuln ID" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870311.55" ts_lastsave="1586024913.81" unique_id="2">
+		<node custom_icon_id="39" foreground="" is_bold="False" name="Info Gathering &amp; Vuln ID" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870311.55" ts_lastsave="1586187069.72" unique_id="2">
 			<rich_text scale="h1">Thoughts and Ideas</rich_text>
 			<rich_text>
 
@@ -34,16 +34,22 @@
 
 ☐  Try use default credentials
 ☐  Use dictionary attack based on known usernames (from HTTP and CTF scenario description) </rich_text>
-			<node custom_icon_id="12" foreground="" is_bold="False" name="Credentials &amp; Other Info" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870372.96" ts_lastsave="1585636613.45" unique_id="4">
-				<rich_text scale="h1">System Information</rich_text>
-				<rich_text>
-
-
-
-</rich_text>
-				<rich_text scale="h1">Credentials</rich_text>
+			<node custom_icon_id="12" foreground="" is_bold="False" name="Credentials &amp; Other Info" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870372.96" ts_lastsave="1586187198.77" unique_id="4">
+				<rich_text></rich_text>
+				<node custom_icon_id="10" foreground="" is_bold="False" name="System Info &amp; Versions" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187069.72" ts_lastsave="1586187379.26" unique_id="27">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="40" foreground="" is_bold="False" name="Credentials" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187111.59" ts_lastsave="1586187111.59" unique_id="28">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Hashes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187154.26" ts_lastsave="1586187154.26" unique_id="29">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Proof/Flags/Other" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187181.05" ts_lastsave="1586187181.05" unique_id="30">
+					<rich_text></rich_text>
+				</node>
 			</node>
-			<node custom_icon_id="21" foreground="" is_bold="False" name="Scans" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870385.09" ts_lastsave="1585636673.22" unique_id="5">
+			<node custom_icon_id="21" foreground="" is_bold="False" name="Scans" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870385.09" ts_lastsave="1586187219.95" unique_id="5">
 				<rich_text scale="h1">Nmap Scan</rich_text>
 				<rich_text>
 
@@ -57,6 +63,18 @@
 				<rich_text scale="h1">Dirbuster/Dirb Scan</rich_text>
 				<rich_text>
 </rich_text>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Nmap" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186982.24" ts_lastsave="1586187250.54" unique_id="22">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Nikto" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186996.2" ts_lastsave="1586187239.18" unique_id="25">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Dirbuster/Dirb" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187010.33" ts_lastsave="1586187229.17" unique_id="26">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Sparta" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187219.96" ts_lastsave="1586187219.96" unique_id="31">
+					<rich_text></rich_text>
+				</node>
 			</node>
 			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870439.54" ts_lastsave="1586024884.19" unique_id="6">
 				<rich_text></rich_text>
@@ -72,27 +90,30 @@
 				<node custom_icon_id="16" foreground="" is_bold="False" name="File Upload" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024659.72" ts_lastsave="1586024659.72" unique_id="20">
 					<rich_text></rich_text>
 				</node>
-				<node custom_icon_id="38" foreground="" is_bold="False" name="Wordpress" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024872.26" ts_lastsave="1586024872.26" unique_id="21">
-					<rich_text></rich_text>
-				</node>
-				<node custom_icon_id="38" foreground="" is_bold="False" name="Joomla" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024884.19" ts_lastsave="1586024884.19" unique_id="22">
+				<node custom_icon_id="38" foreground="" is_bold="False" name="CMS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024872.26" ts_lastsave="1586186911.79" unique_id="21">
 					<rich_text></rich_text>
 				</node>
 			</node>
-			<node custom_icon_id="44" foreground="" is_bold="False" name="File System Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1584656317.16" ts_lastsave="1586024332.44" unique_id="10">
+			<node custom_icon_id="39" foreground="" is_bold="False" name="Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186815.49" ts_lastsave="1586187766.93" unique_id="24">
 				<rich_text></rich_text>
-			</node>
-			<node custom_icon_id="21" foreground="" is_bold="False" name="SSH Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024311.89" ts_lastsave="1586024311.89" unique_id="13">
-				<rich_text></rich_text>
-			</node>
-			<node custom_icon_id="44" foreground="" is_bold="False" name="FTP Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024458.83" ts_lastsave="1586024458.83" unique_id="15">
-				<rich_text></rich_text>
-			</node>
-			<node custom_icon_id="44" foreground="" is_bold="False" name="SMB Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024489.93" ts_lastsave="1586024489.93" unique_id="16">
-				<rich_text></rich_text>
-			</node>
-			<node custom_icon_id="39" foreground="" is_bold="False" name="Database Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024913.81" ts_lastsave="1586024913.81" unique_id="23">
-				<rich_text></rich_text>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="File System" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1584656317.16" ts_lastsave="1586186836.53" unique_id="10">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Permissions" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187766.94" ts_lastsave="1586187769.35" unique_id="32">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024311.89" ts_lastsave="1586186896.86" unique_id="13">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="FTP" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024458.83" ts_lastsave="1586186851.59" unique_id="15">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="SMB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024489.93" ts_lastsave="1586186857.04" unique_id="16">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Database" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024913.81" ts_lastsave="1586186865.62" unique_id="23">
+					<rich_text></rich_text>
+				</node>
 			</node>
 		</node>
 		<node custom_icon_id="43" foreground="" is_bold="False" name="Attacks &amp; Exploits" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870342.04" ts_lastsave="1586024560.79" unique_id="3">

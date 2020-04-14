@@ -1,0 +1,32 @@
+From root  Sat Sep 26 11:42:10 2009
+Return-Path: <root@kioptix.level1>
+Received: (from root@localhost)
+        by kioptix.level1 (8.11.6/8.11.6) id n8QFgAZ01831
+        for root@kioptix.level1; Sat, 26 Sep 2009 11:42:10 -0400
+Date: Sat, 26 Sep 2009 11:42:10 -0400
+From: root <root@kioptix.level1>
+Message-Id: <200909261542.n8QFgAZ01831@kioptix.level1>
+To: root@kioptix.level1
+Subject: About Level 2
+Status: O
+
+If you are reading this, you got root. Congratulations.
+Level 2 won't be as easy...
+
+From root  Tue Apr 14 07:54:09 2020
+Return-Path: <root@kioptrix.level1>
+Received: (from root@localhost)
+        by kioptrix.level1 (8.11.6/8.11.6) id 03EBs9301104
+        for root; Tue, 14 Apr 2020 07:54:09 -0400
+Date: Tue, 14 Apr 2020 07:54:09 -0400
+From: root <root@kioptrix.level1>
+Message-Id: <202004141154.03EBs9301104@kioptrix.level1>
+To: root@kioptrix.level1
+Subject: LogWatch for kioptrix.level1
+
+
+
+ ################## LogWatch 2.1.1 Begin ##################### 
+
+
+ ###################### LogWatch End #########################

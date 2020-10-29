@@ -1,0 +1,7 @@
+sauna
+Administrator
+Guest
+krbtgt
+HSmith     
+FSmith
+svc_loanmgr

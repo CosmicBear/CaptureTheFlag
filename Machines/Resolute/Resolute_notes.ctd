@@ -1,0 +1,216 @@
+<?xml version="1.0" ?>
+<cherrytree>
+	<node custom_icon_id="14" foreground="" is_bold="False" name="Resolute" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870280.27" ts_lastsave="1604441242.59" unique_id="1">
+		<rich_text></rich_text>
+		<node custom_icon_id="39" foreground="" is_bold="False" name="Info Gathering &amp; Vuln ID" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870311.55" ts_lastsave="1602593505.6" unique_id="2">
+			<rich_text scale="h1">Thoughts and Ideas</rich_text>
+			<rich_text>
+
+
+</rich_text>
+			<rich_text scale="h2">SSH</rich_text>
+			<rich_text>
+
+☐  Try to connect with known usernames (from HTTP and CTF scenario description) and see if they actually exist (on SSH)
+☐  Use dictionary attack based on known confirmed usernames
+
+</rich_text>
+			<rich_text scale="h2">FTP</rich_text>
+			<rich_text>
+
+☐  Try use default credentials
+☐  Use dictionary attack based on known usernames (from HTTP and CTF scenario description) 
+
+</rich_text>
+			<rich_text scale="h2">HTTP</rich_text>
+			<rich_text>
+
+☐  Look at source code
+☐  Collect / harvest names and usernames from website
+
+</rich_text>
+			<rich_text weight="heavy">If login form / authentication</rich_text>
+			<rich_text>
+
+☐  Try use default credentials
+☐  Use dictionary attack based on known usernames (from HTTP and CTF scenario description) </rich_text>
+			<node custom_icon_id="12" foreground="" is_bold="False" name="Credentials &amp; Other Info" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870372.96" ts_lastsave="1586187198.77" unique_id="4">
+				<rich_text></rich_text>
+				<node custom_icon_id="10" foreground="" is_bold="False" name="System Info &amp; Versions" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187069.72" ts_lastsave="1586187379.26" unique_id="27">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="40" foreground="" is_bold="False" name="Credentials" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187111.59" ts_lastsave="1586187111.59" unique_id="28">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Hashes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187154.26" ts_lastsave="1586187154.26" unique_id="29">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Proof/Flags/Other" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187181.05" ts_lastsave="1586187181.05" unique_id="30">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="21" foreground="" is_bold="False" name="Scans" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870385.09" ts_lastsave="1602594005.61" unique_id="5">
+				<rich_text scale="h1">Nmap Scan</rich_text>
+				<rich_text>
+
+
+</rich_text>
+				<rich_text scale="h1">Nikto Scan</rich_text>
+				<rich_text>
+
+
+</rich_text>
+				<rich_text scale="h1">Dirbuster/Dirb Scan</rich_text>
+				<rich_text>
+</rich_text>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Nmap" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186982.24" ts_lastsave="1586187250.54" unique_id="22">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Nikto" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186996.2" ts_lastsave="1586187239.18" unique_id="25">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Dirbuster/Dirb" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187010.33" ts_lastsave="1586187229.17" unique_id="26">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Fuzzing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594005.62" ts_lastsave="1602594989.91" unique_id="14">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870439.54" ts_lastsave="1602594338.19" unique_id="6">
+				<rich_text></rich_text>
+				<node custom_icon_id="15" foreground="" is_bold="False" name="Manual Browsing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1573477690.97" ts_lastsave="1585636690.9" unique_id="8">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="46" foreground="" is_bold="False" name="Source Code" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594338.19" ts_lastsave="1602594340.43" unique_id="20">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="38" foreground="" is_bold="False" name="CMS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024872.26" ts_lastsave="1586551862.74" unique_id="21">
+					<rich_text>
+
+</rich_text>
+					<rich_text scale="h1">Vulnerability Identification</rich_text>
+				</node>
+				<node custom_icon_id="38" foreground="" is_bold="False" name="Other App/Service/API" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586543391.34" ts_lastsave="1602594972.2" unique_id="35">
+					<rich_text>
+
+</rich_text>
+					<rich_text scale="h1">Vulnerability Identification</rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="39" foreground="" is_bold="False" name="Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186815.49" ts_lastsave="1602594692.36" unique_id="24">
+				<rich_text></rich_text>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="File System" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1584656317.16" ts_lastsave="1586186836.53" unique_id="10">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Permissions" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187766.94" ts_lastsave="1586187769.35" unique_id="32">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024311.89" ts_lastsave="1586551840.38" unique_id="13">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="FTP" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024458.83" ts_lastsave="1586209127.02" unique_id="15">
+					<rich_text>
+
+
+</rich_text>
+					<rich_text scale="h1">Vulnerability Identification</rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="SMB" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024489.93" ts_lastsave="1586209129.92" unique_id="16">
+					<rich_text>
+
+
+</rich_text>
+					<rich_text scale="h1">Vulnerability Identification</rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Database" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024913.81" ts_lastsave="1586186865.62" unique_id="23">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="SNMP" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594692.36" ts_lastsave="1602594694.69" unique_id="50">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="HTTP/HTTPS" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586889486.08" ts_lastsave="1586889515.0" unique_id="37">
+					<rich_text>
+
+
+</rich_text>
+					<rich_text scale="h1">Vulnerability Identification</rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="RPC" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602593753.38" ts_lastsave="1602593756.06" unique_id="43">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Running Processes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586551787.09" ts_lastsave="1586551790.11" unique_id="36">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Network/Pivoting" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1597765746.71" ts_lastsave="1602594719.9" unique_id="40">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Other" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586209020.96" ts_lastsave="1586209020.96" unique_id="33">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="42" foreground="" is_bold="False" name="Active Directory" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602593505.6" ts_lastsave="1602593773.43" unique_id="31">
+				<rich_text></rich_text>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="DNS/Subdomains" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602593773.43" ts_lastsave="1602595079.52" unique_id="44">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="21" foreground="" is_bold="False" name="PowerView" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602593596.16" ts_lastsave="1602593596.16" unique_id="41">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="21" foreground="" is_bold="False" name="Bloodhound" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602593617.72" ts_lastsave="1602593617.72" unique_id="42">
+					<rich_text></rich_text>
+				</node>
+			</node>
+		</node>
+		<node custom_icon_id="43" foreground="" is_bold="False" name="Attacks &amp; Exploits" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870342.04" ts_lastsave="1602594765.33" unique_id="3">
+			<rich_text scale="h1">Thoughts and Ideas</rich_text>
+			<node custom_icon_id="42" foreground="" is_bold="False" name="Privilege Escalation" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585638176.19" ts_lastsave="1585638176.19" unique_id="7">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="41" foreground="" is_bold="False" name="Password Cracking" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585638492.89" ts_lastsave="1602595209.66" unique_id="12">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="22" foreground="" is_bold="False" name="Remote Code Execution" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586209231.89" ts_lastsave="1586209231.89" unique_id="34">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="22" foreground="" is_bold="False" name="Remote Buffer Overflow" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586889537.86" ts_lastsave="1586889537.86" unique_id="38">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="40" foreground="" is_bold="False" name="Persistence" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1597765697.31" ts_lastsave="1597765697.31" unique_id="39">
+				<rich_text></rich_text>
+			</node>
+			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594765.34" ts_lastsave="1602594791.24" unique_id="51">
+				<rich_text></rich_text>
+				<node custom_icon_id="22" foreground="" is_bold="False" name="SQL Injection" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024556.46" ts_lastsave="1602594774.79" unique_id="17">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="22" foreground="" is_bold="False" name="Local File Inclusion" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585638477.14" ts_lastsave="1602594777.24" unique_id="11">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="22" foreground="" is_bold="False" name="Insecure Direct Object Reference" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024560.79" ts_lastsave="1602594779.73" unique_id="18">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="42" foreground="" is_bold="False" name="Active Directory" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602593847.6" ts_lastsave="1602594656.91" unique_id="45">
+				<rich_text></rich_text>
+				<node custom_icon_id="22" foreground="" is_bold="False" name="LLMNR Poisoning" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602593868.39" ts_lastsave="1602593884.7" unique_id="46">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="22" foreground="" is_bold="False" name="SMB Relay" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602593910.32" ts_lastsave="1602593910.32" unique_id="47">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="22" foreground="" is_bold="False" name="Kerberoasting" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594173.03" ts_lastsave="1602594193.79" unique_id="19">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="22" foreground="" is_bold="False" name="Golden/Silver Ticket" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594232.18" ts_lastsave="1602594232.18" unique_id="48">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="22" foreground="" is_bold="False" name="Lateral Movement" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594656.91" ts_lastsave="1602594656.91" unique_id="49">
+					<rich_text></rich_text>
+				</node>
+			</node>
+		</node>
+		<node custom_icon_id="9" foreground="" is_bold="False" name="Temporary" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1576383399.34" ts_lastsave="1602594039.4" unique_id="9">
+			<rich_text></rich_text>
+		</node>
+	</node>
+</cherrytree>

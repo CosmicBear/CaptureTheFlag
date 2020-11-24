@@ -1,0 +1,30 @@
+Target: http://10.10.10.150:80/FUZZ
+Total requests: 4614
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00001:  C=200    361 L	    1051 W	  14247 Ch	  ""
+00011:  C=403     11 L	      32 W	    291 Ch	  ".hta"
+00012:  C=403     11 L	      32 W	    296 Ch	  ".htaccess"
+00013:  C=403     11 L	      32 W	    296 Ch	  ".htpasswd"
+00319:  C=301      9 L	      28 W	    320 Ch	  "administrator"
+00628:  C=301      9 L	      28 W	    310 Ch	  "bin"
+00730:  C=301      9 L	      28 W	    312 Ch	  "cache"
+00978:  C=301      9 L	      28 W	    317 Ch	  "components"
+01991:  C=301      9 L	      28 W	    313 Ch	  "images"
+02013:  C=301      9 L	      28 W	    315 Ch	  "includes"
+02021:  C=200    361 L	    1051 W	  14268 Ch	  "index.php"
+02276:  C=301      9 L	      28 W	    316 Ch	  "libraries"
+02236:  C=301      9 L	      28 W	    315 Ch	  "language"
+02254:  C=301      9 L	      28 W	    314 Ch	  "layouts"
+02473:  C=301      9 L	      28 W	    312 Ch	  "media"
+02567:  C=301      9 L	      28 W	    314 Ch	  "modules"
+03003:  C=301      9 L	      28 W	    314 Ch	  "plugins"
+03588:  C=403     11 L	      32 W	    300 Ch	  "server-status"
+03995:  C=301      9 L	      28 W	    316 Ch	  "templates"
+04069:  C=301      9 L	      28 W	    310 Ch	  "tmp"
+
+Total time: 0
+Processed Requests: 4614
+Filtered Requests: 4594
+Requests/sec.: 0

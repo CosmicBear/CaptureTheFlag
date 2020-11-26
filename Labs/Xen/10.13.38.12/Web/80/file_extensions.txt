@@ -1,0 +1,10 @@
+.asm
+.asmx
+.asp
+.aspx
+.htm
+.html
+.txt
+.bak
+.old
+.conf

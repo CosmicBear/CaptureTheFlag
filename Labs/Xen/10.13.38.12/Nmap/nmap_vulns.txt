@@ -1,0 +1,87 @@
+# Nmap 7.80 scan initiated Wed Nov 25 16:48:05 2020 as: nmap -Pn -sV --script vuln -p 25,80,443 -oN 10.13.38.12/Nmap/nmap_vulns.txt 10.13.38.12
+Pre-scan script results:
+| broadcast-avahi-dos: 
+|   Discovered hosts:
+|     224.0.0.251
+|   After NULL UDP avahi packet DoS (CVE-2011-1002).
+|_  Hosts are all up (not vulnerable).
+Nmap scan report for humongousretail.com (10.13.38.12)
+Host is up (0.029s latency).
+
+PORT    STATE SERVICE    VERSION
+25/tcp  open  smtp
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+| fingerprint-strings: 
+|   GenericLines, GetRequest: 
+|     220 ESMTP MAIL Service ready (EXCHANGE.HTB.LOCAL)
+|     sequence of commands
+|     sequence of commands
+|   Hello: 
+|     220 ESMTP MAIL Service ready (EXCHANGE.HTB.LOCAL)
+|     EHLO Invalid domain address.
+|   Help: 
+|     220 ESMTP MAIL Service ready (EXCHANGE.HTB.LOCAL)
+|     DATA HELO EHLO MAIL NOOP QUIT RCPT RSET SAML TURN VRFY
+|   NULL: 
+|_    220 ESMTP MAIL Service ready (EXCHANGE.HTB.LOCAL)
+| smtp-vuln-cve2010-4344: 
+|_  The SMTP server is not Exim: NOT VULNERABLE
+|_sslv2-drown: 
+80/tcp  open  http       Microsoft IIS httpd 7.5
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+| http-enum: 
+|   /README.txt: Interesting, a readme.
+|_  /remote/: Potentially interesting folder
+| http-fileupload-exploiter: 
+|   
+|_    Couldn't find a file-type field.
+|_http-internal-ip-disclosure: ERROR: Script execution failed (use -d to debug)
+|_http-server-header: Microsoft-IIS/7.5
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+443/tcp open  ssl/https?
+|_clamav-exec: ERROR: Script execution failed (use -d to debug)
+|_http-aspnet-debug: ERROR: Script execution failed (use -d to debug)
+|_http-csrf: Couldn't find any CSRF vulnerabilities.
+|_http-dombased-xss: Couldn't find any DOM based XSS.
+|_http-stored-xss: Couldn't find any stored XSS vulnerabilities.
+|_http-vuln-cve2014-3704: ERROR: Script execution failed (use -d to debug)
+| ssl-poodle: 
+|   VULNERABLE:
+|   SSL POODLE information leak
+|     State: VULNERABLE
+|     IDs:  CVE:CVE-2014-3566  BID:70574
+|           The SSL protocol 3.0, as used in OpenSSL through 1.0.1i and other
+|           products, uses nondeterministic CBC padding, which makes it easier
+|           for man-in-the-middle attackers to obtain cleartext data via a
+|           padding-oracle attack, aka the "POODLE" issue.
+|     Disclosure date: 2014-10-14
+|     Check results:
+|       TLS_RSA_WITH_3DES_EDE_CBC_SHA
+|     References:
+|       https://cve.mitre.org/cgi-bin/cvename.cgi?name=CVE-2014-3566
+|       https://www.securityfocus.com/bid/70574
+|       https://www.imperialviolet.org/2014/10/14/poodle.html
+|_      https://www.openssl.org/~bodo/ssl-poodle.pdf
+| sslv2-drown: 
+|   ciphers: 
+|     SSL2_RC4_128_WITH_MD5
+|_    SSL2_DES_192_EDE3_CBC_WITH_MD5
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port25-TCP:V=7.80%I=7%D=11/25%Time=5FBE7CDE%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,33,"220\x20ESMTP\x20MAIL\x20Service\x20ready\x20\(EXCHANGE\.HTB\.LOCA
+SF:L\)\r\n")%r(Hello,55,"220\x20ESMTP\x20MAIL\x20Service\x20ready\x20\(EXC
+SF:HANGE\.HTB\.LOCAL\)\r\n501\x20EHLO\x20Invalid\x20domain\x20address\.\r\
+SF:n")%r(Help,6F,"220\x20ESMTP\x20MAIL\x20Service\x20ready\x20\(EXCHANGE\.
+SF:HTB\.LOCAL\)\r\n211\x20DATA\x20HELO\x20EHLO\x20MAIL\x20NOOP\x20QUIT\x20
+SF:RCPT\x20RSET\x20SAML\x20TURN\x20VRFY\r\n")%r(GenericLines,6F,"220\x20ES
+SF:MTP\x20MAIL\x20Service\x20ready\x20\(EXCHANGE\.HTB\.LOCAL\)\r\n503\x20B
+SF:ad\x20sequence\x20of\x20commands\r\n503\x20Bad\x20sequence\x20of\x20com
+SF:mands\r\n")%r(GetRequest,6F,"220\x20ESMTP\x20MAIL\x20Service\x20ready\x
+SF:20\(EXCHANGE\.HTB\.LOCAL\)\r\n503\x20Bad\x20sequence\x20of\x20commands\
+SF:r\n503\x20Bad\x20sequence\x20of\x20commands\r\n");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 25 16:56:48 2020 -- 1 IP address (1 host up) scanned in 522.97 seconds

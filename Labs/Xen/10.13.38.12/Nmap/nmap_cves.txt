@@ -1,0 +1,39 @@
+# Nmap 7.80 scan initiated Wed Nov 25 16:47:01 2020 as: nmap -Pn -sV --script vulners --script-args mincvss=7.0 -p 25,80,443 -oN 10.13.38.12/Nmap/nmap_cves.txt 10.13.38.12
+Nmap scan report for humongousretail.com (10.13.38.12)
+Host is up (0.032s latency).
+
+PORT    STATE SERVICE    VERSION
+25/tcp  open  smtp
+| fingerprint-strings: 
+|   GenericLines, GetRequest: 
+|     220 ESMTP MAIL Service ready (EXCHANGE.HTB.LOCAL)
+|     sequence of commands
+|     sequence of commands
+|   Hello: 
+|     220 ESMTP MAIL Service ready (EXCHANGE.HTB.LOCAL)
+|     EHLO Invalid domain address.
+|   Help: 
+|     220 ESMTP MAIL Service ready (EXCHANGE.HTB.LOCAL)
+|     DATA HELO EHLO MAIL NOOP QUIT RCPT RSET SAML TURN VRFY
+|   NULL: 
+|_    220 ESMTP MAIL Service ready (EXCHANGE.HTB.LOCAL)
+80/tcp  open  http       Microsoft IIS httpd 7.5
+|_http-server-header: Microsoft-IIS/7.5
+443/tcp open  ssl/https?
+1 service unrecognized despite returning data. If you know the service/version, please submit the following fingerprint at https://nmap.org/cgi-bin/submit.cgi?new-service :
+SF-Port25-TCP:V=7.80%I=7%D=11/25%Time=5FBE7C7B%P=x86_64-pc-linux-gnu%r(NUL
+SF:L,33,"220\x20ESMTP\x20MAIL\x20Service\x20ready\x20\(EXCHANGE\.HTB\.LOCA
+SF:L\)\r\n")%r(Hello,55,"220\x20ESMTP\x20MAIL\x20Service\x20ready\x20\(EXC
+SF:HANGE\.HTB\.LOCAL\)\r\n501\x20EHLO\x20Invalid\x20domain\x20address\.\r\
+SF:n")%r(Help,6F,"220\x20ESMTP\x20MAIL\x20Service\x20ready\x20\(EXCHANGE\.
+SF:HTB\.LOCAL\)\r\n211\x20DATA\x20HELO\x20EHLO\x20MAIL\x20NOOP\x20QUIT\x20
+SF:RCPT\x20RSET\x20SAML\x20TURN\x20VRFY\r\n")%r(GenericLines,6F,"220\x20ES
+SF:MTP\x20MAIL\x20Service\x20ready\x20\(EXCHANGE\.HTB\.LOCAL\)\r\n503\x20B
+SF:ad\x20sequence\x20of\x20commands\r\n503\x20Bad\x20sequence\x20of\x20com
+SF:mands\r\n")%r(GetRequest,6F,"220\x20ESMTP\x20MAIL\x20Service\x20ready\x
+SF:20\(EXCHANGE\.HTB\.LOCAL\)\r\n503\x20Bad\x20sequence\x20of\x20commands\
+SF:r\n503\x20Bad\x20sequence\x20of\x20commands\r\n");
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Wed Nov 25 16:48:05 2020 -- 1 IP address (1 host up) scanned in 64.25 seconds

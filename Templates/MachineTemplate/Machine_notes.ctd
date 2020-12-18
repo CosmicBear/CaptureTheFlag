@@ -12,25 +12,13 @@
 				<node custom_icon_id="40" foreground="" is_bold="False" name="Credentials" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187111.59" ts_lastsave="1586187111.59" unique_id="28">
 					<rich_text></rich_text>
 				</node>
-				<node custom_icon_id="18" foreground="" is_bold="False" name="Hashes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187154.26" ts_lastsave="1586187154.26" unique_id="29">
-					<rich_text></rich_text>
-				</node>
 				<node custom_icon_id="18" foreground="" is_bold="False" name="Proof/Flags/Other" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187181.05" ts_lastsave="1586187181.05" unique_id="30">
 					<rich_text></rich_text>
 				</node>
 			</node>
 			<node custom_icon_id="21" foreground="" is_bold="False" name="Scans" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870385.09" ts_lastsave="1604918283.74" unique_id="5">
 				<rich_text></rich_text>
-				<node custom_icon_id="18" foreground="" is_bold="False" name="Nmap" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186982.24" ts_lastsave="1586187250.54" unique_id="22">
-					<rich_text></rich_text>
-				</node>
-				<node custom_icon_id="18" foreground="" is_bold="False" name="Nikto" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186996.2" ts_lastsave="1586187239.18" unique_id="25">
-					<rich_text></rich_text>
-				</node>
-				<node custom_icon_id="18" foreground="" is_bold="False" name="Dirbuster/Dirb" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187010.33" ts_lastsave="1586187229.17" unique_id="26">
-					<rich_text></rich_text>
-				</node>
-				<node custom_icon_id="18" foreground="" is_bold="False" name="Fuzzing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594005.62" ts_lastsave="1602594989.91" unique_id="14">
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Port Scan" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186982.24" ts_lastsave="1608256229.3" unique_id="22">
 					<rich_text></rich_text>
 				</node>
 				<node custom_icon_id="18" foreground="" is_bold="False" name="Enum4linux" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1604918085.91" ts_lastsave="1604918085.91" unique_id="58">
@@ -39,6 +27,12 @@
 			</node>
 			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1572870439.54" ts_lastsave="1602594338.19" unique_id="6">
 				<rich_text></rich_text>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Directory and File Brute Force" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187010.33" ts_lastsave="1608256501.9" unique_id="26">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="18" foreground="" is_bold="False" name="Nikto Scan" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186996.2" ts_lastsave="1608257075.81" unique_id="25">
+					<rich_text></rich_text>
+				</node>
 				<node custom_icon_id="15" foreground="" is_bold="False" name="Manual Browsing" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1573477690.97" ts_lastsave="1585636690.9" unique_id="8">
 					<rich_text></rich_text>
 				</node>
@@ -52,12 +46,18 @@
 					<rich_text></rich_text>
 				</node>
 			</node>
-			<node custom_icon_id="39" foreground="" is_bold="False" name="Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186815.49" ts_lastsave="1604918041.58" unique_id="24">
+			<node custom_icon_id="39" foreground="" is_bold="False" name="Enumeration" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586186815.49" ts_lastsave="1608256864.46" unique_id="24">
 				<rich_text></rich_text>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="System" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1608256460.18" ts_lastsave="1608256462.58" unique_id="14">
+					<rich_text></rich_text>
+				</node>
 				<node custom_icon_id="44" foreground="" is_bold="False" name="File System" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1584656317.16" ts_lastsave="1586186836.53" unique_id="10">
 					<rich_text></rich_text>
 				</node>
 				<node custom_icon_id="44" foreground="" is_bold="False" name="Permissions" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187766.94" ts_lastsave="1586187769.35" unique_id="32">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Applications / Services" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1608256484.92" ts_lastsave="1608256487.74" unique_id="60">
 					<rich_text></rich_text>
 				</node>
 				<node custom_icon_id="44" foreground="" is_bold="False" name="SSH" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024311.89" ts_lastsave="1586551840.38" unique_id="13">
@@ -90,10 +90,19 @@
 				<node custom_icon_id="44" foreground="" is_bold="False" name="Running Processes" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586551787.09" ts_lastsave="1586551790.11" unique_id="36">
 					<rich_text></rich_text>
 				</node>
-				<node custom_icon_id="44" foreground="" is_bold="False" name="Network/Pivoting" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1597765746.71" ts_lastsave="1602594719.9" unique_id="40">
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Network" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1608256880.37" ts_lastsave="1608256883.38" unique_id="62">
 					<rich_text></rich_text>
 				</node>
 				<node custom_icon_id="44" foreground="" is_bold="False" name="Other" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586209020.96" ts_lastsave="1586209020.96" unique_id="33">
+					<rich_text></rich_text>
+				</node>
+			</node>
+			<node custom_icon_id="39" foreground="" is_bold="False" name="Post Exploitation" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1608256864.47" ts_lastsave="1608256864.47" unique_id="61">
+				<rich_text></rich_text>
+				<node custom_icon_id="44" foreground="" is_bold="False" name="Pivoting" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1597765746.71" ts_lastsave="1608256901.53" unique_id="40">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="41" foreground="" is_bold="False" name="Credentials Dumping" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586187154.26" ts_lastsave="1608256939.69" unique_id="29">
 					<rich_text></rich_text>
 				</node>
 			</node>
@@ -124,18 +133,18 @@
 			<node custom_icon_id="22" foreground="" is_bold="False" name="Remote Code Execution" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586209231.89" ts_lastsave="1586209231.89" unique_id="34">
 				<rich_text></rich_text>
 			</node>
-			<node custom_icon_id="22" foreground="" is_bold="False" name="Remote Buffer Overflow" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586889537.86" ts_lastsave="1586889537.86" unique_id="38">
-				<rich_text></rich_text>
-			</node>
 			<node custom_icon_id="40" foreground="" is_bold="False" name="Persistence / Shells" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1597765697.31" ts_lastsave="1604917866.79" unique_id="39">
 				<rich_text></rich_text>
 			</node>
-			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594765.34" ts_lastsave="1602594791.24" unique_id="51">
+			<node custom_icon_id="17" foreground="" is_bold="False" name="Web" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1602594765.34" ts_lastsave="1608256766.03" unique_id="51">
 				<rich_text></rich_text>
 				<node custom_icon_id="22" foreground="" is_bold="False" name="SQL Injection" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024556.46" ts_lastsave="1602594774.79" unique_id="17">
 					<rich_text></rich_text>
 				</node>
 				<node custom_icon_id="22" foreground="" is_bold="False" name="Local File Inclusion" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1585638477.14" ts_lastsave="1602594777.24" unique_id="11">
+					<rich_text></rich_text>
+				</node>
+				<node custom_icon_id="22" foreground="" is_bold="False" name="Remote File Inclusion" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1608256766.04" ts_lastsave="1608256768.6" unique_id="38">
 					<rich_text></rich_text>
 				</node>
 				<node custom_icon_id="22" foreground="" is_bold="False" name="Insecure Direct Object Reference" prog_lang="custom-colors" readonly="False" tags="" ts_creation="1586024560.79" ts_lastsave="1602594779.73" unique_id="18">

@@ -1,0 +1,31 @@
+Starting Nmap 7.80 ( https://nmap.org ) at 2020-12-21 12:43 CET
+Nmap scan report for htb.local (10.10.10.71)
+Host is up (0.056s latency).
+
+PORT     STATE SERVICE VERSION
+3306/tcp open  mysql   MySQL 5.7.19
+| mysql-enum: 
+|   Valid usernames: 
+|     root:<empty> - Valid credentials
+|     netadmin:<empty> - Valid credentials
+|     guest:<empty> - Valid credentials
+|     user:<empty> - Valid credentials
+|     web:<empty> - Valid credentials
+|     sysadmin:<empty> - Valid credentials
+|     administrator:<empty> - Valid credentials
+|     webadmin:<empty> - Valid credentials
+|     admin:<empty> - Valid credentials
+|     test:<empty> - Valid credentials
+|_  Statistics: Performed 10 guesses in 1 seconds, average tps: 10.0
+| mysql-info: 
+|   Protocol: 10
+|   Version: 5.7.19
+|   Thread ID: 2869
+|   Capabilities flags: 63487
+|   Some Capabilities: SupportsCompression, LongColumnFlag, IgnoreSigpipes, SupportsLoadDataLocal, Speaks41ProtocolNew, FoundRows, IgnoreSpaceBeforeParenthesis, Support41Auth, ConnectWithDatabase, InteractiveClient, ODBCClient, DontAllowDatabaseTableColumn, Speaks41ProtocolOld, SupportsTransactions, LongPassword, SupportsMultipleStatments, SupportsAuthPlugins, SupportsMultipleResults
+|   Status: Autocommit
+|   Salt: tT\x132ef64gl\x06&O@kK\x0DB\x7F1
+|_  Auth Plugin Name: mysql_native_password
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+Nmap done: 1 IP address (1 host up) scanned in 197.09 seconds

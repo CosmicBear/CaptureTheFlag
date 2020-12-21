@@ -1,0 +1,23 @@
+smbclient -N -L 10.10.10.71 -g
+protocol negotiation failed: NT_STATUS_CONNECTION_RESET
+
+smbclient -N \10.10.10.71\ADMIN$ -c ls
+protocol negotiation failed: NT_STATUS_CONNECTION_RESET
+
+smbclient -N \10.10.10.71\C$ -c ls
+protocol negotiation failed: NT_STATUS_CONNECTION_RESET
+
+smbclient -N \10.10.10.71\IPC$ -c ls
+protocol negotiation failed: NT_STATUS_CONNECTION_RESET
+
+smbclient -N \10.10.10.71\Secure$ -c ls
+protocol negotiation failed: NT_STATUS_CONNECTION_RESET
+
+smbclient -N \10.10.10.71\Data -c ls
+protocol negotiation failed: NT_STATUS_CONNECTION_RESET
+
+smbclient -N \10.10.10.71\Users -c ls
+protocol negotiation failed: NT_STATUS_CONNECTION_RESET
+
+smbclient -N \10.10.10.71\Audit -c ls
+protocol negotiation failed: NT_STATUS_CONNECTION_RESET

@@ -1,0 +1,46 @@
+# Nmap 7.80 scan initiated Mon Dec 21 08:58:56 2020 as: nmap -Pn -T4 -p- -v --open -oN 10.10.10.71/Nmap/nmap_quick_all_ports.txt 10.10.10.71
+Nmap scan report for 10.10.10.71
+Host is up (0.036s latency).
+Not shown: 65496 closed ports, 2 filtered ports
+Some closed ports may be reported as filtered due to --defeat-rst-ratelimit
+PORT      STATE SERVICE
+53/tcp    open  domain
+80/tcp    open  http
+88/tcp    open  kerberos-sec
+135/tcp   open  msrpc
+389/tcp   open  ldap
+443/tcp   open  https
+445/tcp   open  microsoft-ds
+464/tcp   open  kpasswd5
+593/tcp   open  http-rpc-epmap
+636/tcp   open  ldapssl
+3268/tcp  open  globalcatLDAP
+3269/tcp  open  globalcatLDAPssl
+3306/tcp  open  mysql
+5722/tcp  open  msdfsr
+5985/tcp  open  wsman
+6001/tcp  open  X11:1
+6002/tcp  open  X11:2
+6003/tcp  open  X11:3
+6004/tcp  open  X11:4
+6005/tcp  open  X11:5
+6006/tcp  open  X11:6
+6007/tcp  open  X11:7
+6008/tcp  open  X11:8
+6010/tcp  open  x11
+6011/tcp  open  x11
+6017/tcp  open  xmail-ctrl
+6142/tcp  open  aspentec-lm
+8080/tcp  open  http-proxy
+9389/tcp  open  adws
+12561/tcp open  unknown
+12566/tcp open  unknown
+12585/tcp open  unknown
+12607/tcp open  unknown
+12609/tcp open  unknown
+12654/tcp open  unknown
+47001/tcp open  winrm
+64337/tcp open  unknown
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Dec 21 09:02:32 2020 -- 1 IP address (1 host up) scanned in 216.39 seconds

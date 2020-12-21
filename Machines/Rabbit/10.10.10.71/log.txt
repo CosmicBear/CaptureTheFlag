@@ -1,0 +1,45 @@
+Timestamp             Module      Message                                           
+
+21/12/20 08:58:55     Nmap        Starting Quick Nmap Scan
+21/12/20 09:02:32     Nmap        Finished Quick Nmap Scan
+21/12/20 09:02:32     Nmap        Starting Full Nmap Scan
+21/12/20 09:07:46     Nmap        Finished Full Nmap Scan
+21/12/20 09:07:46     LDAP        Starting LDAP enum  
+21/12/20 09:07:47     LDAP        Finished LDAP enum  
+21/12/20 09:07:47     LDAP        Starting LDAP detailed enum
+21/12/20 09:07:47     LDAP        Finished LDAP detailed enum
+21/12/20 09:07:47     SMB         Starting listing shares
+21/12/20 09:07:47     SMB         Finished listing shares
+21/12/20 09:07:47     SMB         Starting connection to common shares
+21/12/20 09:07:47     SMB         Finished connection to common shares
+21/12/20 09:07:47     SMB         Starting connection to common shares
+21/12/20 09:07:47     SMB         Finished connection to common shares
+21/12/20 09:07:47     SMB         Starting connection to common shares
+21/12/20 09:07:48     SMB         Finished connection to common shares
+21/12/20 09:07:48     SMB         Starting connection to common shares
+21/12/20 09:07:48     SMB         Finished connection to common shares
+21/12/20 09:07:48     SMB         Starting connection to common shares
+21/12/20 09:07:48     SMB         Finished connection to common shares
+21/12/20 09:07:48     SMB         Starting connection to common shares
+21/12/20 09:07:48     SMB         Finished connection to common shares
+21/12/20 09:07:48     SMB         Starting connection to common shares
+21/12/20 09:07:48     SMB         Finished connection to common shares
+21/12/20 09:07:48     SMB         Starting enum4linux 
+21/12/20 09:08:09     SMB         Finished enum4linux 
+21/12/20 09:08:11     Web         Starting brute forcing directories
+21/12/20 09:08:18     Web         Finished brute forcing directories
+21/12/20 09:08:18     Web         Starting brute forcing files against IIS server
+21/12/20 09:08:21     Web         Finished brute forcing files against IIS server
+21/12/20 09:08:21     Web         Starting brute forcing files against Apache server
+21/12/20 09:08:24     Web         Finished brute forcing files against Apache server
+21/12/20 09:08:24     Web         Starting Nikto scan 
+21/12/20 09:51:22     Web         Finished Nikto scan 
+21/12/20 09:51:23     Web         Starting brute forcing directories
+21/12/20 09:52:06     Web         Finished brute forcing directories
+21/12/20 09:52:06     Web         Starting brute forcing files against Apache server
+21/12/20 09:53:05     Web         Finished brute forcing files against Apache server
+21/12/20 09:53:05     Web         Starting Nikto scan 
+21/12/20 10:00:00     Web         Finished Nikto scan 
+21/12/20 10:00:00     Vuln        Starting CVE scan   
+21/12/20 10:01:36     Vuln        Finished CVE scan   
+21/12/20 10:01:36     Vuln        Starting vuln scan  

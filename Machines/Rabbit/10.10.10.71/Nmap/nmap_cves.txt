@@ -1,0 +1,72 @@
+# Nmap 7.80 scan initiated Mon Dec 21 10:00:00 2020 as: nmap -Pn -sV --script vulners --script-args mincvss=7.0 -p 53,80,88,135,389,443,445,464,593,636,3268,3269,3306,5722,5985,6001,6002,6003,6004,6005,6006,6007,6008,6010,6011,6017,6142,8080,9389,12561,12566,12585,12607,12609,12654,47001,64337 -oN 10.10.10.71/Nmap/nmap_cves.txt 10.10.10.71
+Nmap scan report for htb.local (10.10.10.71)
+Host is up (0.051s latency).
+
+PORT      STATE SERVICE           VERSION
+53/tcp    open  domain            Microsoft DNS 6.1.7601 (1DB15D39) (Windows Server 2008 R2 SP1)
+80/tcp    open  http              Microsoft IIS httpd 7.5
+|_http-server-header: Microsoft-IIS/7.5
+88/tcp    open  kerberos-sec      Microsoft Windows Kerberos (server time: 2020-12-21 14:00:42Z)
+135/tcp   open  msrpc             Microsoft Windows RPC
+389/tcp   open  ldap              Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+443/tcp   open  ssl/https?
+445/tcp   open  microsoft-ds?
+464/tcp   open  kpasswd5?
+593/tcp   open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+636/tcp   open  ldapssl?
+3268/tcp  open  ldap              Microsoft Windows Active Directory LDAP (Domain: htb.local, Site: Default-First-Site-Name)
+3269/tcp  open  globalcatLDAPssl?
+3306/tcp  open  mysql             MySQL 5.7.19
+5722/tcp  open  msrpc             Microsoft Windows RPC
+5985/tcp  open  http              Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+6001/tcp  open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+6002/tcp  open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+6003/tcp  open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+6004/tcp  open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+6005/tcp  open  msrpc             Microsoft Windows RPC
+6006/tcp  open  msrpc             Microsoft Windows RPC
+6007/tcp  open  msrpc             Microsoft Windows RPC
+6008/tcp  open  msrpc             Microsoft Windows RPC
+6010/tcp  open  ncacn_http        Microsoft Windows RPC over HTTP 1.0
+6011/tcp  open  msrpc             Microsoft Windows RPC
+6017/tcp  open  msrpc             Microsoft Windows RPC
+6142/tcp  open  msrpc             Microsoft Windows RPC
+8080/tcp  open  http              Apache httpd 2.4.27 ((Win64) PHP/5.6.31)
+|_http-server-header: Apache/2.4.27 (Win64) PHP/5.6.31
+| vulners: 
+|   cpe:/a:apache:http_server:2.4.27: 
+|     	CVE-2020-11984	7.5	https://vulners.com/cve/CVE-2020-11984
+|     	EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB	7.2	https://vulners.com/exploitpack/EXPLOITPACK:44C5118F831D55FAF4259C41D8BDA0AB	*EXPLOIT*
+|     	CVE-2019-0211	7.2	https://vulners.com/cve/CVE-2019-0211
+|     	1337DAY-ID-32502	7.2	https://vulners.com/zdt/1337DAY-ID-32502	*EXPLOIT*
+|     	EDB-ID:47689	5.8	https://vulners.com/exploitdb/EDB-ID:47689	*EXPLOIT*
+|     	1337DAY-ID-33577	5.8	https://vulners.com/zdt/1337DAY-ID-33577	*EXPLOIT*
+|     	SSV:96537	5.0	https://vulners.com/seebug/SSV:96537	*EXPLOIT*
+|     	MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED	5.0	https://vulners.com/metasploit/MSF:AUXILIARY/SCANNER/HTTP/APACHE_OPTIONSBLEED	*EXPLOIT*
+|     	EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D	5.0	https://vulners.com/exploitpack/EXPLOITPACK:C8C256BE0BFF5FE1C0405CB0AA9C075D	*EXPLOIT*
+|     	1337DAY-ID-28573	5.0	https://vulners.com/zdt/1337DAY-ID-28573	*EXPLOIT*
+|     	EDB-ID:47688	4.3	https://vulners.com/exploitdb/EDB-ID:47688	*EXPLOIT*
+|     	1337DAY-ID-33575	4.3	https://vulners.com/zdt/1337DAY-ID-33575	*EXPLOIT*
+|     	PACKETSTORM:152441	0.0	https://vulners.com/packetstorm/PACKETSTORM:152441	*EXPLOIT*
+|     	EDB-ID:46676	0.0	https://vulners.com/exploitdb/EDB-ID:46676	*EXPLOIT*
+|     	EDB-ID:42745	0.0	https://vulners.com/exploitdb/EDB-ID:42745	*EXPLOIT*
+|     	1337DAY-ID-663	0.0	https://vulners.com/zdt/1337DAY-ID-663	*EXPLOIT*
+|     	1337DAY-ID-601	0.0	https://vulners.com/zdt/1337DAY-ID-601	*EXPLOIT*
+|     	1337DAY-ID-4533	0.0	https://vulners.com/zdt/1337DAY-ID-4533	*EXPLOIT*
+|     	1337DAY-ID-3109	0.0	https://vulners.com/zdt/1337DAY-ID-3109	*EXPLOIT*
+|_    	1337DAY-ID-2237	0.0	https://vulners.com/zdt/1337DAY-ID-2237	*EXPLOIT*
+9389/tcp  open  mc-nmf            .NET Message Framing
+12561/tcp open  msrpc             Microsoft Windows RPC
+12566/tcp open  msrpc             Microsoft Windows RPC
+12585/tcp open  msrpc             Microsoft Windows RPC
+12607/tcp open  msrpc             Microsoft Windows RPC
+12609/tcp open  msrpc             Microsoft Windows RPC
+12654/tcp open  msrpc             Microsoft Windows RPC
+47001/tcp open  http              Microsoft HTTPAPI httpd 2.0 (SSDP/UPnP)
+|_http-server-header: Microsoft-HTTPAPI/2.0
+64337/tcp open  mc-nmf            .NET Message Framing
+Service Info: Host: RABBIT; OS: Windows; CPE: cpe:/o:microsoft:windows_server_2008:r2:sp1, cpe:/o:microsoft:windows
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Dec 21 10:01:36 2020 -- 1 IP address (1 host up) scanned in 95.97 seconds

@@ -1,0 +1,17 @@
+Target: http://10.10.10.71:80/FUZZ
+Total requests: 220546
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+09366:  C=301      0 L	       0 W	      0 Ch	  "owa"
+  |_ Enqueued response for recursion (level=1)
+52124:  C=401     29 L	     100 W	   1293 Ch	  "powershell"
+227744:  C=302      3 L	       8 W	    195 Ch	  "owa - Cirque%20du%20soleil%20"
+284386:  C=302      3 L	       8 W	    180 Ch	  "owa - kaspersky%20"
+306885:  C=302      3 L	       8 W	    182 Ch	  "owa - KeithRankin%20"
+437317:  C=302      3 L	       8 W	    171 Ch	  "owa - %20"
+
+Total time: 0
+Processed Requests: 441092
+Filtered Requests: 441086
+Requests/sec.: 0

@@ -1,0 +1,42 @@
+Target: http://10.10.10.117:80/FUZZ
+Total requests: 4614
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00001:  C=200      3 L	       7 W	     72 Ch	  ""
+  |_ Enqueued response for recursion (level=1)
+00011:  C=403     11 L	      32 W	    291 Ch	  ".hta"
+00012:  C=403     11 L	      32 W	    296 Ch	  ".htaccess"
+00013:  C=403     11 L	      32 W	    296 Ch	  ".htpasswd"
+02020:  C=200      3 L	       7 W	     72 Ch	  "index.html"
+02441:  C=301      9 L	      28 W	    313 Ch	  "manual"
+  |_ Enqueued response for recursion (level=1)
+03588:  C=403     11 L	      32 W	    300 Ch	  "server-status"
+05641:  C=403     11 L	      32 W	    300 Ch	  "server-status"
+06788:  C=301      9 L	      28 W	    313 Ch	  "manual"
+07209:  C=200      3 L	       7 W	     72 Ch	  "index.html"
+09216:  C=403     11 L	      32 W	    296 Ch	  ".htpasswd"
+09217:  C=403     11 L	      32 W	    296 Ch	  ".htaccess"
+09218:  C=403     11 L	      32 W	    291 Ch	  ".hta"
+09228:  C=200      3 L	       7 W	     72 Ch	  ""
+09241:  C=301      9 L	      28 W	    319 Ch	  "manual - zh-cn"
+09736:  C=301      9 L	      28 W	    316 Ch	  "manual - tr"
+09971:  C=301      9 L	      28 W	    319 Ch	  "manual - style"
+11626:  C=301      9 L	      28 W	    316 Ch	  "manual - ko"
+11709:  C=301      9 L	      28 W	    316 Ch	  "manual - ja"
+11823:  C=200     12 L	      26 W	    626 Ch	  "manual - index.html"
+11852:  C=301      9 L	      28 W	    320 Ch	  "manual - images"
+12153:  C=301      9 L	      28 W	    316 Ch	  "manual - fr"
+12351:  C=301      9 L	      28 W	    316 Ch	  "manual - es"
+12402:  C=301      9 L	      28 W	    316 Ch	  "manual - en"
+12654:  C=301      9 L	      28 W	    316 Ch	  "manual - de"
+12693:  C=301      9 L	      28 W	    316 Ch	  "manual - da"
+13842:  C=200     12 L	      26 W	    626 Ch	  "manual"
+13830:  C=403     11 L	      32 W	    303 Ch	  "manual - .htpasswd"
+13831:  C=403     11 L	      32 W	    303 Ch	  "manual - .htaccess"
+13832:  C=403     11 L	      32 W	    298 Ch	  "manual - .hta"
+
+Total time: 0
+Processed Requests: 13842
+Filtered Requests: 13812
+Requests/sec.: 0

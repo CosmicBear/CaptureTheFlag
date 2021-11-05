@@ -1,0 +1,10 @@
+# Nmap 7.80 scan initiated Mon Nov  1 09:56:35 2021 as: nmap -Pn -T4 -p- -v --open -oN 172.16.114.169/Nmap/nmap_quick_all_ports.txt 172.16.114.169
+Nmap scan report for 172.16.114.169
+Host is up (0.025s latency).
+Not shown: 65533 closed ports
+PORT   STATE SERVICE
+22/tcp open  ssh
+80/tcp open  http
+
+Read data files from: /usr/bin/../share/nmap
+# Nmap done at Mon Nov  1 09:56:46 2021 -- 1 IP address (1 host up) scanned in 11.69 seconds

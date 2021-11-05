@@ -1,0 +1,30 @@
+
+1. Enummerated with starExplorer script
+
+Found web server and folder called ipdata. Contained a .pcap file. Found a POST http request with creds for Wordpress
+
+webdeveloper:Te5eQg&4sBS!Yr$)wf%(DcAd
+
+
+2. RCE on Wordpress
+
+Used creds to login to Wordpress. Created php payload and inserted it into non-active Wordpress theme.
+
+
+3. Post Exploitation Enummeration
+
+Read the wp-config.php file and found creds.
+
+webdeveloper:MasterOfTheUniverse
+
+Used creds to login to ssh
+
+
+4. Priv Escalation
+
+Ran sudo -l and webdeveloper could run tcpdump as sudo.
+
+Found commands to exploit it to get root by using google.
+
+Read /root/flag.txt
+cba045a5a4f26f1cd8d7be9a5c2b1b34f6c5d290

@@ -1,0 +1,85 @@
+_______________________________________________________________
+         __          _______   _____
+         \ \        / /  __ \ / ____|
+          \ \  /\  / /| |__) | (___   ___  __ _ _ __ ®
+           \ \/  \/ / |  ___/ \___ \ / __|/ _` | '_ \
+            \  /\  /  | |     ____) | (__| (_| | | | |
+             \/  \/   |_|    |_____/ \___|\__,_|_| |_|
+
+         WordPress Security Scanner by the WPScan Team
+                         Version 3.8.2
+       Sponsored by Automattic - https://automattic.com/
+       @_WPScan_, @ethicalhack3r, @erwan_lr, @firefart
+_______________________________________________________________
+
+[32m[+][0m URL: http://172.16.114.169/ [172.16.114.169]
+[32m[+][0m Started: Mon Nov  1 10:16:16 2021
+
+Interesting Finding(s):
+
+[32m[+][0m Headers
+ | Interesting Entry: Server: Apache/2.4.29 (Ubuntu)
+ | Found By: Headers (Passive Detection)
+ | Confidence: 100%
+
+[32m[+][0m XML-RPC seems to be enabled: http://172.16.114.169/xmlrpc.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+ | References:
+ |  - http://codex.wordpress.org/XML-RPC_Pingback_API
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_ghost_scanner
+ |  - https://www.rapid7.com/db/modules/auxiliary/dos/http/wordpress_xmlrpc_dos
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_xmlrpc_login
+ |  - https://www.rapid7.com/db/modules/auxiliary/scanner/http/wordpress_pingback_access
+
+[32m[+][0m http://172.16.114.169/readme.html
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m Upload directory has listing enabled: http://172.16.114.169/wp-content/uploads/
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 100%
+
+[32m[+][0m The external WP-Cron seems to be enabled: http://172.16.114.169/wp-cron.php
+ | Found By: Direct Access (Aggressive Detection)
+ | Confidence: 60%
+ | References:
+ |  - https://www.iplocation.net/defend-wordpress-from-ddos
+ |  - https://github.com/wpscanteam/wpscan/issues/1299
+
+[32m[+][0m WordPress version 4.9.8 identified (Insecure, released on 2018-08-02).
+ | Found By: Rss Generator (Passive Detection)
+ |  - http://172.16.114.169/index.php/feed/, <generator>https://wordpress.org/?v=4.9.8</generator>
+ |  - http://172.16.114.169/index.php/comments/feed/, <generator>https://wordpress.org/?v=4.9.8</generator>
+
+[32m[+][0m WordPress theme in use: twentyseventeen
+ | Location: http://172.16.114.169/wp-content/themes/twentyseventeen/
+ | Last Updated: 2021-07-22T00:00:00.000Z
+ | Readme: http://172.16.114.169/wp-content/themes/twentyseventeen/README.txt
+ | [33m[!][0m The version is out of date, the latest version is 2.8
+ | Style URL: http://172.16.114.169/wp-content/themes/twentyseventeen/style.css?ver=4.9.8
+ | Style Name: Twenty Seventeen
+ | Style URI: https://wordpress.org/themes/twentyseventeen/
+ | Description: Twenty Seventeen brings your site to life with header video and immersive featured images. With a fo...
+ | Author: the WordPress team
+ | Author URI: https://wordpress.org/
+ |
+ | Found By: Css Style In Homepage (Passive Detection)
+ |
+ | Version: 1.7 (80% confidence)
+ | Found By: Style (Passive Detection)
+ |  - http://172.16.114.169/wp-content/themes/twentyseventeen/style.css?ver=4.9.8, Match: 'Version: 1.7'
+
+
+[34m[i][0m No plugins Found.
+
+[33m[!][0m No WPVulnDB API Token given, as a result vulnerability data has not been output.
+[33m[!][0m You can get a free API token with 50 daily requests by registering at https://wpvulndb.com/users/sign_up
+
+[32m[+][0m Finished: Mon Nov  1 10:16:27 2021
+[32m[+][0m Requests Done: 2
+[32m[+][0m Cached Requests: 33
+[32m[+][0m Data Sent: 558 B
+[32m[+][0m Data Received: 1.029 KB
+[32m[+][0m Memory used: 218.258 MB
+[32m[+][0m Elapsed time: 00:00:11

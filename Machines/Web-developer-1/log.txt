@@ -1,0 +1,16 @@
+Timestamp             Module      Message                                           
+
+01/11/21 09:56:34     Nmap        Starting Quick Nmap Scan
+01/11/21 09:56:46     Nmap        Finished Quick Nmap Scan
+01/11/21 09:56:46     Nmap        Starting Full Nmap Scan
+01/11/21 09:56:57     Nmap        Finished Full Nmap Scan
+01/11/21 09:56:58     Web         Starting brute forcing directories
+01/11/21 09:58:36     Web         Finished brute forcing directories
+01/11/21 09:58:36     Web         Starting brute forcing files against Apache server
+01/11/21 10:00:05     Web         Finished brute forcing files against Apache server
+01/11/21 10:00:05     Web         Starting Nikto scan 
+01/11/21 10:07:56     Web         Finished Nikto scan 
+01/11/21 10:07:56     Vuln        Starting CVE scan   
+01/11/21 10:08:04     Vuln        Finished CVE scan   
+01/11/21 10:08:04     Vuln        Starting vuln scan  
+01/11/21 10:09:09     Vuln        Finished vuln scan  

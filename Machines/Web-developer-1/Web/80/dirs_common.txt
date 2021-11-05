@@ -1,0 +1,82 @@
+Target: http://172.16.114.169:80/FUZZ
+Total requests: 4614
+==================================================================
+ID    Response   Lines      Word         Chars          Request    
+==================================================================
+00001:  C=301      0 L	       0 W	      0 Ch	  ""
+  |_ Enqueued response for recursion (level=1)
+00011:  C=403     11 L	      32 W	    293 Ch	  ".hta"
+00013:  C=403     11 L	      32 W	    298 Ch	  ".htpasswd"
+00012:  C=403     11 L	      32 W	    298 Ch	  ".htaccess"
+02106:  C=301      9 L	      28 W	    317 Ch	  "ipdata"
+  |_ Enqueued response for recursion (level=1)
+02021:  C=301      0 L	       0 W	      0 Ch	  "index.php"
+  |_ Enqueued response for recursion (level=1)
+03588:  C=403     11 L	      32 W	    302 Ch	  "server-status"
+04485:  C=301      9 L	      28 W	    319 Ch	  "wp-admin"
+  |_ Enqueued response for recursion (level=1)
+04495:  C=301      9 L	      28 W	    321 Ch	  "wp-content"
+  |_ Enqueued response for recursion (level=1)
+04501:  C=301      9 L	      28 W	    322 Ch	  "wp-includes"
+  |_ Enqueued response for recursion (level=1)
+04728:  C=301      9 L	      28 W	    322 Ch	  "wp-includes"
+04734:  C=301      9 L	      28 W	    321 Ch	  "wp-content"
+04744:  C=301      9 L	      28 W	    319 Ch	  "wp-admin"
+05641:  C=403     11 L	      32 W	    302 Ch	  "server-status"
+07123:  C=301      9 L	      28 W	    317 Ch	  "ipdata"
+07208:  C=301      0 L	       0 W	      0 Ch	  "index.php"
+09216:  C=403     11 L	      32 W	    298 Ch	  ".htpasswd"
+09217:  C=403     11 L	      32 W	    298 Ch	  ".htaccess"
+09218:  C=403     11 L	      32 W	    293 Ch	  ".hta"
+09228:  C=301      0 L	       0 W	      0 Ch	  ""
+13830:  C=403     11 L	      32 W	    305 Ch	  "ipdata - .htpasswd"
+13831:  C=403     11 L	      32 W	    305 Ch	  "ipdata - .htaccess"
+13842:  C=200     16 L	      59 W	    946 Ch	  "ipdata"
+13832:  C=403     11 L	      32 W	    300 Ch	  "ipdata - .hta"
+14231:  C=301      9 L	      28 W	    324 Ch	  "wp-admin - user"
+15797:  C=301      9 L	      28 W	    327 Ch	  "wp-admin - network"
+16036:  C=301      9 L	      28 W	    325 Ch	  "wp-admin - maint"
+16278:  C=301      9 L	      28 W	    322 Ch	  "wp-admin - js"
+16444:  C=301      9 L	      28 W	    328 Ch	  "wp-admin - includes"
+16466:  C=301      9 L	      28 W	    326 Ch	  "wp-admin - images"
+16436:  C=302      0 L	       0 W	      0 Ch	  "wp-admin - index.php"
+17343:  C=301      9 L	      28 W	    323 Ch	  "wp-admin - css"
+18167:  C=302      0 L	       0 W	      0 Ch	  "wp-admin - admin.php"
+18445:  C=403     11 L	      32 W	    307 Ch	  "wp-admin - .htaccess"
+18446:  C=403     11 L	      32 W	    302 Ch	  "wp-admin - .hta"
+18444:  C=403     11 L	      32 W	    307 Ch	  "wp-admin - .htpasswd"
+18456:  C=302      0 L	       0 W	      0 Ch	  "wp-admin"
+18855:  C=301      9 L	      28 W	    329 Ch	  "wp-content - uploads"
+19034:  C=301      9 L	      28 W	    328 Ch	  "wp-content - themes"
+20068:  C=301      9 L	      28 W	    329 Ch	  "wp-content - plugins"
+21050:  C=200      0 L	       0 W	      0 Ch	  "wp-content - index.php"
+23058:  C=403     11 L	      32 W	    309 Ch	  "wp-content - .htpasswd"
+23059:  C=403     11 L	      32 W	    309 Ch	  "wp-content - .htaccess"
+23060:  C=403     11 L	      32 W	    304 Ch	  "wp-content - .hta"
+23070:  C=200      0 L	       0 W	      0 Ch	  "wp-content"
+23190:  C=301      9 L	      28 W	    321 Ch	  "index.php - wp-content"
+23200:  C=301      9 L	      28 W	    319 Ch	  "index.php - wp-admin"
+23184:  C=301      9 L	      28 W	    322 Ch	  "index.php - wp-includes"
+24097:  C=403     11 L	      32 W	    302 Ch	  "index.php - server-status"
+25579:  C=301      9 L	      28 W	    317 Ch	  "index.php - ipdata"
+25664:  C=301      0 L	       0 W	      0 Ch	  "index.php - index.php"
+27672:  C=403     11 L	      32 W	    298 Ch	  "index.php - .htpasswd"
+27673:  C=403     11 L	      32 W	    298 Ch	  "index.php - .htaccess"
+27674:  C=403     11 L	      32 W	    293 Ch	  "index.php - .hta"
+27848:  C=301      9 L	      28 W	    330 Ch	  "wp-includes - widgets"
+27684:  C=301      0 L	       0 W	      0 Ch	  "index.php"
+30120:  C=301      9 L	      28 W	    325 Ch	  "wp-includes - js"
+30308:  C=301      9 L	      28 W	    329 Ch	  "wp-includes - images"
+30651:  C=301      9 L	      28 W	    328 Ch	  "wp-includes - fonts"
+31170:  C=301      9 L	      28 W	    332 Ch	  "wp-includes - customize"
+31185:  C=301      9 L	      28 W	    326 Ch	  "wp-includes - css"
+31497:  C=301      9 L	      28 W	    335 Ch	  "wp-includes - certificates"
+32286:  C=403     11 L	      32 W	    310 Ch	  "wp-includes - .htpasswd"
+32287:  C=403     11 L	      32 W	    310 Ch	  "wp-includes - .htaccess"
+32288:  C=403     11 L	      32 W	    305 Ch	  "wp-includes - .hta"
+32298:  C=200    201 L	    2024 W	  41069 Ch	  "wp-includes"
+
+Total time: 0
+Processed Requests: 32298
+Filtered Requests: 32232
+Requests/sec.: 0
